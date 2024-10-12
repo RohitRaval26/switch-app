@@ -1,0 +1,403 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-10 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4008a4a3: app_main at /Users/rohitraval/Documents/esp-rainmaker/examples/switch/main/app_main.c:350
+0x40157673: main_task at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/app_startup.c:208
+0x4002ec92: vPortTaskWrapper at /Users/rohitraval/Documents/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader-complete.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/rohitraval/Documents/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

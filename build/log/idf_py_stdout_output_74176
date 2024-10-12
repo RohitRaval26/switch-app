@@ -1,0 +1,1192 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0xa (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe6110,len:0x186c
+load:0x4004b000,len:0x4
+load:0x4004b004,len:0xb0c
+load:0x4004f000,len:0x3268
+entry 0x4004b1cc
+[0;32mI (23) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Oct 11 2024 16:22:09[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (27) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (37) boot.esp32s2: SPI Flash Size : 4MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 esp_secure_cert  unknown          3f 06 0000d000 00002000[0m
+[0;32mI (65) boot:  1 nvs_key          NVS keys         01 04 0000f000 00001000[0m
+[0;32mI (73) boot:  2 nvs              WiFi data        01 02 00010000 00006000[0m
+[0;32mI (80) boot:  3 otadata          OTA data         01 00 00016000 00002000[0m
+[0;32mI (87) boot:  4 phy_init         RF data          01 01 00018000 00001000[0m
+[0;32mI (95) boot:  5 ota_0            OTA app          00 10 00020000 00190000[0m
+[0;32mI (102) boot:  6 ota_1            OTA app          00 11 001b0000 00190000[0m
+[0;32mI (110) boot:  7 fctry            WiFi data        01 02 00340000 00006000[0m
+[0;32mI (118) boot: End of partition table[0m
+[0;32mI (122) esp_image: segment 0: paddr=00020020 vaddr=3f000020 size=4c218h (311832) map[0m
+[0;32mI (193) esp_image: segment 1: paddr=0006c240 vaddr=3ffcb120 size=0384ch ( 14412) load[0m
+[0;32mI (196) esp_image: segment 2: paddr=0006fa94 vaddr=40024000 size=00584h (  1412) load[0m
+[0;32mI (199) esp_image: segment 3: paddr=00070020 vaddr=40080020 size=d819ch (885148) map[0m
+[0;32mI (383) esp_image: segment 4: paddr=001481c4 vaddr=40024584 size=16b90h ( 93072) load[0m
+[0;32mI (418) boot: Loaded app from partition at offset 0x20000[0m
+[0;32mI (418) boot: Disabling RNG early entropy source...[0m
+[0;32mI (430) cpu_start: Unicore app[0m
+[0;32mI (430) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (432) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (458) cpu_start: Pro cpu start user code[0m
+[0;32mI (458) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (458) cpu_start: Application information:[0m
+[0;32mI (461) cpu_start: Project name:     switch[0m
+[0;32mI (466) cpu_start: App version:      1.0[0m
+[0;32mI (470) cpu_start: Compile time:     Oct 11 2024 16:21:54[0m
+[0;32mI (476) cpu_start: ELF file SHA256:  b527ace9c...[0m
+[0;32mI (482) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (487) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (491) cpu_start: Max chip rev:     v1.99 [0m
+[0;32mI (496) cpu_start: Chip rev:         v0.0[0m
+[0;32mI (501) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (508) heap_init: At 3FFD5E38 len 000261C8 (152 KiB): RAM[0m
+[0;32mI (514) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (520) heap_init: At 3FF9E000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (528) spi_flash: detected chip: generic[0m
+[0;32mI (531) spi_flash: flash io: dio[0m
+[0;33mW (536) rmt(legacy): legacy driver is deprecated, please migrate to `driver/rmt_tx.h` and/or `driver/rmt_rx.h`[0m
+[0;33mW (546) timer_group: legacy driver is deprecated, please migrate to `driver/gptimer.h`[0m
+[0;32mI (555) main_task: Started on CPU0[0m
+[0;32mI (555) main_task: Calling app_main()[0m
+[0;32mI (555) esp_rmaker_console: Initialising UART on port 0[0m
+[0;32mI (565) uart: queue free spaces: 8[0m
+[0;32mI (565) esp_rmaker_commands: Registering command: reboot[0m
+[0;32mI (575) esp_rmaker_commands: Registering command: up-time[0m
+[0;32mI (585) esp_rmaker_commands: Registering command: mem-dump[0m
+[0;32mI (585) esp_rmaker_commands: Registering command: task-dump[0m
+[0;32mI (595) esp_rmaker_commands: Registering command: cpu-dump[0m
+[0;32mI (595) esp_rmaker_commands: Registering command: sock-dump[0m
+[0;32mI (605) esp_rmaker_commands: Registering command: heap-trace[0m
+[0;32mI (615) esp_rmaker_commands: Registering command: reset-to-factory[0m
+[0;32mI (615) esp_rmaker_commands: Registering command: local-time[0m
+[0;32mI (625) esp_rmaker_commands: Registering command: tz-set[0m
+[0;32mI (635) esp_rmaker_commands: Registering command: add-user[0m
+[0;32mI (635) esp_rmaker_commands: Registering command: get-node-id[0m
+[0;32mI (645) esp_rmaker_commands: Registering command: wifi-prov[0m
+[0;32mI (645) esp_rmaker_commands: Registering command: cmd[0m
+[0;32mI (655) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:3 [0m
+[0;32mI (665) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (675) sprofiler: Initializing SProfiler...[0m
+[0;31mE (675) esp_semihost: OpenOCD is not connected![0m
+[0;31mE (685) sprofiler: Failed to register semihost driver (ESP_ERR_NOT_SUPPORTED)![0m
+Sample point 0
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 1
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 2
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 3
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 4
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 5
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 6
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 7
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 8
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 9
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 10
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 11
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 12
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 13
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 14
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 15
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 16
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 17
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 18
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 19
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 20
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 21
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 22
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 23
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 24
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 25
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 26
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 27
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 28
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 29
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 30
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 31
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 32
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 33
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 34
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 35
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 36
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 37
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 38
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 39
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 40
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 41
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 42
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 43
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 44
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 45
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 46
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 47
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 48
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 49
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 50
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 51
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 52
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 53
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 54
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 55
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 56
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 57
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 58
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 59
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 60
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 61
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 62
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 63
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 64
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 65
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 66
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 67
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 68
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 69
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 70
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 71
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 72
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 73
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 74
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 75
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 76
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 77
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 78
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 79
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 80
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 81
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 82
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 83
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 84
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 85
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 86
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 87
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 88
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 89
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 90
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 91
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 92
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 93
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 94
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 95
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 96
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 97
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 98
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+Sample point 99
+
+
+Backtrace: 0x4008A4A3:0x3FFD8BE0 0x40157673:0x3FFD8C20 0x4002EC92:0x3FFD8C50
+
+[0;32mI (100705) Profiler: Completed 100 samples.[0m
+[0;32mI (100715) wifi:wifi driver task: 3ffe14c0, prio:23, stack:6656, core=0[0m
+[0;32mI (100715) wifi:wifi firmware version: a9f5b59[0m
+[0;32mI (100715) wifi:wifi certification version: v7.0[0m
+[0;32mI (100715) wifi:config NVS flash: enabled[0m
+[0;32mI (100715) wifi:config nano formating: disabled[0m
+[0;32mI (100725) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (100725) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (100735) wifi:Init management short buffer num: 32[0m
+[0;32mI (100735) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (100745) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (100745) wifi:Init static rx buffer num: 10[0m
+[0;32mI (100745) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (100755) wifi_init: rx ba win: 6[0m
+[0;32mI (100755) wifi_init: tcpip mbox: 32[0m
+[0;32mI (100765) wifi_init: udp mbox: 6[0m
+[0;32mI (100765) wifi_init: tcp mbox: 6[0m
+[0;32mI (100765) wifi_init: tcp tx win: 5760[0m
+[0;32mI (100775) wifi_init: tcp rx win: 5760[0m
+[0;32mI (100775) wifi_init: tcp mss: 1440[0m
+[0;32mI (100785) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (100785) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (100795) esp_rmaker_work_queue: Work Queue created.[0m
+[0;32mI (100795) esp_claim: Initialising Self Claiming. This may take time.[0m
+[0;33mW (100805) esp_claim: Generating the private key. This may take time.[0m
+[0;32mI (110045) app_main: RainMaker Initialised.[0m
+[0;32mI (110045) esp_rmaker_node: Node ID ----- 84F70388DF4C[0m
+[0;32mI (110045) esp_rmaker_ota_using_topics: OTA enabled with Topics[0m
+[0;32mI (110055) esp_rmaker_ota: OTA state = 2[0m
+[0;32mI (110055) esp_rmaker_time: Initializing SNTP. Using the SNTP server: pool.ntp.org[0m
+[0;32mI (110065) esp_rmaker_time_service: Time service enabled[0m
+[0;32mI (110075) esp_rmaker_time: SNTP already initialized.[0m
+[0;32mI (110085) app_insights: Enable CONFIG_ESP_INSIGHTS_ENABLED to get Insights.[0m
+[0;32mI (110085) esp_rmaker_core: Starting RainMaker Work Queue task[0m
+[0;32mI (110095) esp_rmaker_work_queue: RainMaker Work Queue task started.[0m
+[0;32mI (110095) tag: 0x3ffec1ec   e5 02 4e 6f 76 61 00 01  00 80 01 00              |..Nova......|[0m
+[0;32mI (110105) app_thread: Starting provisioning[0m
+[0;32mI (110125) phy_init: phy_version 2401,2a6dc26,Sep 26 2023,11:22:15[0m
+[0;33mW (110125) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration[0m
+[0;32mI (110175) wifi:mode : sta (84:f7:03:88:df:4c)[0m
+[0;32mI (110175) wifi:enable tsf[0m
+[0;32mI (110185) wifi:mode : sta (84:f7:03:88:df:4c) + softAP (84:f7:03:88:df:4d)[0m
+[0;32mI (110185) wifi:Total power save buffer number: 16[0m
+[0;32mI (110185) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (110195) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (110195) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (110205) wifi:Total power save buffer number: 16[0m
+[0;32mI (110215) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (110225) network_prov_mgr: Provisioning started with service name : PROV_7d3a2e [0m
+[0;32mI (110225) app_thread: Provisioning started[0m
+[0;32mI (110235) esp_rmaker_local: Event 1[0m
+[0;32mI (110235) app_network: Scan this QR code from the ESP RainMaker phone app for Provisioning.[0m
+                                      
+  █▀▀▀▀▀█ ███ ▀█ ▀▀▄█▄▄▄▀▀█ █▀▀▀▀▀█   
+  █ ███ █ █▄▀█ ▄ ▄▀▀▀ █▀ █▀ █ ███ █   
+  █ ▀▀▀ █ ▄  ▄▄▀█▀█▄ ▄▀  ▀  █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀▄▀ █ ▀ ▀▄▀ █▄▀ █ ▀▀▀▀▀▀▀   
+  █▀  ██▀▄▄▄▄▀▄ ▀█▄▀▀▀▄▀▄▄▄▄ █ ▀█▀▀   
+  █▄▀ ▄▀▀█  ▄█▀▀ ██▄█ █▄█▀██▀▄██▀█    
+  ▀ ▄█ ▄▀▄  ▀ ▀▄█▄█▀▀▀▄▀▀▀ ▄▀▄▀ ▄▄▀   
+  ▄▀█▄▄▀▀▄  █ ▄▀ ▀▄▄ ▄ █ ▀▄█ ▀ █▀▀▄   
+  ▀█ ▄▀█▀█ █▀▀█▄ ▄█▀▄▀█▀   █▀▄▀▀  ▀   
+  █▀ ▄▀█▀█▄ ▀██▀▄▀▀██▄ ▄█▀█ ▄█▄█▀▀▄   
+  █▄█ ▄▀▀ ████  ▄█▄▀█ ▄█ ▀▀▀▀ ▀ ▄█▀   
+    █▀ ▄▀▄▀▀▄▀ ▀██▄▄ ▄ █▄▀  █▀▀▀▀▄▄   
+  ▀▀ ▀▀▀▀▀▄▄ ▄█▄▄▄▄██▀█▀ ▄█▀▀▀██▄▀    
+  █▀▀▀▀▀█ ▄█▄█ ▀▀▀██▀  ▄█▀█ ▀ ██▀█▄   
+  █ ███ █ ▀█ ▄ ▄ ▄█▀█▀ ▀█ ███▀█▀▄▄█   
+  █ ▀▀▀ █ ▄ ▀█▀ ▀█▀▄ ▄███▀  ▀█▀▄ ▀    
+  ▀▀▀▀▀▀▀ ▀   ▀   ▀▀  ▀▀▀▀▀▀      ▀   
+                                      
+
+[0;32mI (110445) app_network: If QR code is not visible, copy paste the below URL in a browser.
+https://rainmaker.espressif.com/qrcode.html?data={"ver":"v1","name":"PROV_7d3a2e","pop":"554c672e","transport":"softap"}[0m
+[0;32mI (110465) app_main: Provisioning QR : {"ver":"v1","name":"PROV_7d3a2e","pop":"554c672e","transport":"softap"}[0m
+[0;32mI (110485) app_network: Provisioning will auto stop after 30 minute(s).[0m
+[0;32mI (136135) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1[0m
+[0;32mI (136135) wifi:station: 02:93:6c:1b:68:e6 join, AID=1, bgn, 20[0m
+[0;32mI (136255) wifi:<ba-add>idx:2 (ifx:1, 02:93:6c:1b:68:e6), tid:0, ssn:0, winSize:64[0m
+[0;32mI (137395) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (141975) app_network: Secured session established![0m
+[0;32mI (148965) esp_rmaker_user_mapping: Received request for node details[0m
+[0;32mI (148965) esp_rmaker_user_mapping: Got user_id = Google_Jt2gcVmUGFYd3XWBu6acsg, secret_key = A7871CCA-DD19-4865-845B-16C2934C5D3A[0m
+[0;32mI (148975) esp_rmaker_user_mapping: User Node mapping reset detected.[0m
+[0;32mI (148975) esp_rmaker_user_mapping: Sending status SUCCESS[0m
+[0;32mI (149065) app_thread: Received Wi-Fi credentials
+	SSID     : V_202
+	Password : NDRMK@V202[0m
+[0;32mI (152905) wifi:primary chan differ, old=1, new=11, start CSA timer[0m
+[0;32mI (153305) wifi:switch to channel 11[0m
+[0;32mI (153305) wifi:ap channel adjust o:1,1 n:11,2[0m
+[0;32mI (153315) wifi:new:<11,0>, old:<1,0>, ap:<11,2>, sta:<0,0>, prof:1[0m
+[0;32mI (153315) wifi:new:<11,2>, old:<11,0>, ap:<11,2>, sta:<11,0>, prof:1[0m
+[0;32mI (153615) wifi:state: init -> auth (b0)[0m
+[0;32mI (153625) wifi:state: auth -> assoc (0)[0m
+[0;32mI (153635) wifi:state: assoc -> run (10)[0m
+[0;32mI (153665) wifi:connected with V_202, aid = 16, channel 11, BW20, bssid = 4a:bd:ce:54:e8:de[0m
+[0;32mI (153665) wifi:security: WPA2-PSK, phy: bgn, rssi: -56[0m
+[0;32mI (153675) wifi:pm start, type: 1[0m
+
+[0;32mI (153675) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (153685) wifi:<ba-add>idx:0 (ifx:0, 4a:bd:ce:54:e8:de), tid:7, ssn:3, winSize:64[0m
+[0;32mI (153705) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (154675) esp_netif_handlers: sta ip: 10.0.0.179, mask: 255.255.255.0, gw: 10.0.0.1[0m
+[0;32mI (154675) app_network: Connected with IP Address:10.0.0.179[0m
+[0;32mI (154675) network_prov_mgr: STA Got IP[0m
+[0;32mI (154685) app_thread: Provisioning successful[0m
+[0;32mI (154685) app_main: RainMaker Claim Started.[0m
+[0;32mI (154695) esp_claim: Starting the Self Claim Process. This may take time.[0m
+
+
+Getting real time stats over 100 ticks
+[0;32mI (154705) wifi:<ba-add>idx:1 (ifx:0, 4a:bd:ce:54:e8:de), tid:0, ssn:1, winSize:64[0m
+[0;32mI (154885) main_task: Returned from app_main()[0m
+[0;32mI (155085) esp-x509-crt-bundle: Certificate validated[0m
+| Task | Run Time | Percentage
+| stats | 1978 | 0%
+| spin2 | 84344 | 8%
+| spin3 | 84550 | 8%
+| spin4 | 84565 | 8%
+| spin5 | 61718 | 6%
+| spin6 | 80155 | 8%
+| spin1 | 69458 | 6%
+| IDLE | 92009 | 9%
+| tiT | 16871 | 1%
+| Tmr Svc | 0 | 0%
+| httpd | 0 | 0%
+| esp_timer | 1835 | 0%
+| sys_evt | 78 | 0%
+| wifi | 35320 | 3%
+| rmaker_queue_ta | 385333 | 38%
+| console_task | 0 | 0%
+|  | Deleted
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+[0;32mI (157225) esp-x509-crt-bundle: Certificate validated[0m
+| Task | Run Time | Percentage
+| stats | 1796 | 0%
+| spin6 | 107102 | 10%
+| spin2 | 72864 | 7%
+| spin5 | 94064 | 9%
+| spin4 | 88277 | 8%
+| IDLE | 18045 | 1%
+| spin3 | 84642 | 8%
+| tiT | 19531 | 1%
+| rmaker_queue_ta | 394519 | 39%
+| spin1 | 84609 | 8%
+| sys_evt | 476 | 0%
+| console_task | 0 | 0%
+| esp_timer | 1789 | 0%
+| wifi | 32286 | 3%
+| Tmr Svc | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+[0;32mI (158955) esp_claim: Self Claiming was successful. Certificate received.[0m
+[0;32mI (158955) app_main: RainMaker Claim Successful.[0m
+[0;32mI (158965) esp_mqtt_glue: AWS PPI: ?Platform=APN3|A0|RM|EX00|RMDev|1x0|84F70388DF4C[0m
+[0;32mI (158965) esp_mqtt_glue: Initialising MQTT[0m
+[0;32mI (158975) esp_rmaker_mqtt_budget: MQTT Budgeting initialised. Default: 100, Max: 1024, Revive count: 1, Revive period: 5[0m
+[0;32mI (158985) esp_rmaker_cmd_resp: Enabling Command-Response Module.[0m
+[0;32mI (158995) esp_rmaker_node: Node attribute cmd-resp created[0m
+[0;32mI (158995) esp_rmaker_local: Enabling Local Control[0m
+[0;33mW (159005) event: handler already registered, overwriting[0m
+[0;33mW (159005) event: handler already registered, overwriting[0m
+[0;32mI (159015) esp_rmaker_local: Couldn't find POP in NVS. Generating a new one.[0m
+[0;32mI (159025) esp_rmaker_local: Local Control Service Enabled[0m
+[0;32mI (159025) esp_rmaker_local: Waiting for Wi-Fi provisioning to finish.[0m
+[0;32mI (159035) esp_mqtt_glue: Connecting to a1p72mufdu6064-ats.iot.us-east-1.amazonaws.com[0m
+[0;32mI (159045) esp_rmaker_core: Waiting for MQTT connection[0m
+[0;32mI (159305) esp-x509-crt-bundle: Certificate validated[0m
+| Task | Run Time | Percentage
+| stats | 1796 | 0%
+| spin6 | 60380 | 4%
+| spin3 | 65094 | 4%
+| spin4 | 50517 | 3%
+| IDLE | 0 | 0%
+| spin1 | 42217 | 3%
+| spin2 | 56381 | 4%
+| tiT | 26864 | 2%
+| rmaker_queue_ta | 104438 | 7%
+| spin5 | 49163 | 3%
+| sys_evt | 1995 | 0%
+| httpd | 5798 | 0%
+| esp_timer | 2703 | 0%
+| wifi | 46474 | 3%
+| console_task | 0 | 0%
+| Tmr Svc | 0 | 0%
+| mqtt_task | Created
+Real time stats obtained
+[0;32mI (160265) wifi:station: 02:93:6c:1b:68:e6 leave, AID = 1, bss_flags is 33688691, bss:0x3ffe7710[0m
+[0;32mI (160265) wifi:new:<11,0>, old:<11,2>, ap:<11,2>, sta:<11,0>, prof:1[0m
+[0;32mI (160265) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (160265) wifi:mode : sta (84:f7:03:88:df:4c)[0m
+[0;32mI (160285) network_prov_mgr: Provisioning stopped[0m
+[0;32mI (160285) esp_rmaker_local: Event 6[0m
+[0;32mI (160285) esp_rmaker_local: Starting ESP Local control with HTTP Transport and security version: 1[0m
+[0;32mI (160465) esp_https_server: Starting server[0m
+[0;32mI (160465) esp_https_server: Server listening on port 8080[0m
+[0;32mI (160465) esp_rmaker_local: esp_local_ctrl service started with name : 84F70388DF4C[0m
+[0;32mI (160475) app_main: Local Control Started.[0m
+[0;32mI (160475) esp_mqtt_glue: MQTT Connected[0m
+[0;32mI (160475) app_main: MQTT Connected.[0m
+[0;32mI (160485) esp_rmaker_cmd_resp: Checking for pending commands.[0m
+[0;32mI (160495) esp_rmaker_node_config: Generated Node config of length 1458[0m
+[0;32mI (160505) esp_rmaker_core: Waiting for User Node Association.[0m
+[0;32mI (160505) esp_rmaker_ota_using_topics: Subscribing to: node/84F70388DF4C/otaurl[0m
+[0;32mI (160515) esp_rmaker_user_mapping: MQTT Publish: {"node_id":"84F70388DF4C","user_id":"Google_Jt2gcVmUGFYd3XWBu6acsg","secret_key":"A7871CCA-DD19-4865-845B-16C2934C5D3A","reset":true}[0m
+[0;32mI (160775) app_main: MQTT Published. Msg id: 48708.[0m
+[0;32mI (160775) app_main: MQTT Published. Msg id: 4931.[0m
+[0;32mI (160775) app_main: MQTT Published. Msg id: 432.[0m
+[0;32mI (160775) esp_rmaker_user_mapping: User Node association message published successfully.[0m
+[0;33mW (160785) app_main: Unhandled RainMaker Event: 5[0m
+[0;32mI (160795) esp_rmaker_param: Params MQTT Init done.[0m
+[0;32mI (160795) esp_rmaker_param: Reporting params (init): {"Switch":{"Name":"Switch","Power":true},"Time":{"TZ":"","TZ-POSIX":""},"Schedule":{"Schedules":[]},"Scenes":{"Scenes":[]},"Local Control":{"POP":"1c14776b","Type":1}}[0m
+
+
+Getting real time stats over 100 ticks
+[0;32mI (161285) app_main: MQTT Published. Msg id: 35456.[0m
+| Task | Run Time | Percentage
+| stats | 2380 | 0%
+| spin3 | 161002 | 16%
+| spin2 | 144053 | 14%
+| spin5 | 153507 | 15%
+| spin6 | 146006 | 14%
+| spin1 | 149891 | 14%
+| IDLE | 53125 | 5%
+| tiT | 3403 | 0%
+| mqtt_task | 2815 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin4 | 159884 | 15%
+| sys_evt | 516 | 0%
+| mdns | 1683 | 0%
+| wifi | 20161 | 2%
+| esp_timer | 1574 | 0%
+| console_task | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2373 | 0%
+| spin1 | 169010 | 16%
+| spin4 | 159007 | 15%
+| spin6 | 149101 | 14%
+| IDLE | 32406 | 3%
+| spin3 | 168990 | 16%
+| spin2 | 150864 | 15%
+| mqtt_task | 1187 | 0%
+| tiT | 1471 | 0%
+| Tmr Svc | 0 | 0%
+| rmaker_queue_ta | 0 | 0%
+| spin5 | 147193 | 14%
+| httpd | 0 | 0%
+| esp_timer | 1142 | 0%
+| mdns | 0 | 0%
+| wifi | 17255 | 1%
+| console_task | 0 | 0%
+| sys_evt | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2371 | 0%
+| spin3 | 169035 | 16%
+| spin5 | 142968 | 14%
+| spin4 | 156852 | 15%
+| spin1 | 168985 | 16%
+| IDLE | 7321 | 0%
+| spin6 | 159655 | 15%
+| mqtt_task | 1187 | 0%
+| tiT | 3968 | 0%
+| Tmr Svc | 0 | 0%
+| rmaker_queue_ta | 0 | 0%
+| spin2 | 169038 | 16%
+| sys_evt | 0 | 0%
+| mdns | 0 | 0%
+| wifi | 17363 | 1%
+| esp_timer | 1257 | 0%
+| httpd | 0 | 0%
+| console_task | 0 | 0%
+Real time stats obtained
+[0;32mI (166405) esp_rmaker_ota_using_topics: Fetching OTA details, if any.[0m
+[0;32mI (166475) app_main: MQTT Published. Msg id: 20898.[0m
+[0;32mI (166915) esp_rmaker_param: Received params: {"Time":{"TZ":"America/Detroit"}}[0m
+[0;32mI (166925) esp_rmaker_param: Found 1 params in write request for Time[0m
+[0;32mI (166925) esp_rmaker_time_service: Received value = America/Detroit for Time - TZ[0m
+[0;33mW (166935) app_main: Unhandled RainMaker Common Event: 6[0m
+[0;32mI (166935) esp_rmaker_time: Time not synchronised yet.[0m
+[0;32mI (166945) esp_rmaker_time: The current time is: Wed Dec 31 19:02:46 1969 -0500[EST], DST: No.[0m
+[0;33mW (166955) app_main: Unhandled RainMaker Common Event: 7[0m
+[0;32mI (166965) esp_rmaker_param: Reporting params: {"Time":{"TZ-POSIX":"EST5EDT,M3.2.0,M11.1.0"}}[0m
+[0;32mI (166975) esp_rmaker_param: Reporting params: {"Time":{"TZ":"America/Detroit"}}[0m
+
+
+Getting real time stats over 100 ticks
+[0;32mI (167225) app_main: MQTT Published. Msg id: 46781.[0m
+[0;32mI (167225) app_main: MQTT Published. Msg id: 44845.[0m
+[0;32mI (167705) app_network: Secured session established![0m
+[0;32mI (167755) esp_rmaker_node_config: Generated Node config of length 1458[0m
+| Task | Run Time | Percentage
+| stats | 2305 | 0%
+| spin5 | 90564 | 9%
+| spin4 | 86757 | 8%
+| IDLE | 51610 | 5%
+| spin2 | 98853 | 9%
+| spin6 | 109574 | 10%
+| spin1 | 84595 | 8%
+| tiT | 34317 | 3%
+| mqtt_task | 3244 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin3 | 84620 | 8%
+| console_task | 0 | 0%
+| mdns | 3863 | 0%
+| esp_timer | 1911 | 0%
+| wifi | 43728 | 4%
+| sys_evt | 2215 | 0%
+| httpd | 301844 | 30%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2138 | 0%
+| spin3 | 155067 | 15%
+| spin4 | 145288 | 14%
+| spin1 | 153370 | 15%
+| IDLE | 45092 | 4%
+| spin2 | 167995 | 16%
+| spin6 | 140815 | 14%
+| tiT | 2551 | 0%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin5 | 168982 | 16%
+| httpd | 0 | 0%
+| mdns | 1031 | 0%
+| esp_timer | 1341 | 0%
+| wifi | 16331 | 1%
+| console_task | 0 | 0%
+| sys_evt | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2138 | 0%
+| spin2 | 160107 | 16%
+| spin5 | 165040 | 16%
+| spin3 | 166506 | 16%
+| spin1 | 158993 | 15%
+| IDLE | 16741 | 1%
+| tiT | 1536 | 0%
+| spin6 | 140859 | 14%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin4 | 168968 | 16%
+| mdns | 0 | 0%
+| sys_evt | 0 | 0%
+| wifi | 16982 | 1%
+| esp_timer | 938 | 0%
+| httpd | 0 | 0%
+| console_task | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2138 | 0%
+| spin3 | 169001 | 16%
+| spin6 | 152214 | 15%
+| spin2 | 165076 | 16%
+| spin5 | 144902 | 14%
+| IDLE | 12567 | 1%
+| spin4 | 169027 | 16%
+| spin1 | 165113 | 16%
+| Tmr Svc | 0 | 0%
+| mqtt_task | 1190 | 0%
+| rmaker_queue_ta | 0 | 0%
+| tiT | 1089 | 0%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+| wifi | 16833 | 1%
+| esp_timer | 851 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2144 | 0%
+| spin3 | 140898 | 14%
+| spin1 | 158982 | 15%
+| spin4 | 166663 | 16%
+| spin2 | 156804 | 15%
+| spin5 | 145724 | 14%
+| IDLE | 45195 | 4%
+| spin6 | 163426 | 16%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| tiT | 1492 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+| wifi | 16551 | 1%
+| esp_timer | 930 | 0%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2144 | 0%
+| spin4 | 161899 | 16%
+| spin6 | 169008 | 16%
+| IDLE | 2138 | 0%
+| spin5 | 168989 | 16%
+| spin2 | 140846 | 14%
+| spin3 | 168994 | 16%
+| tiT | 1076 | 0%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin1 | 169007 | 16%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+| wifi | 13949 | 1%
+| esp_timer | 760 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+[0;33mW (178705) security1: Invalid state of session 0 (expected 2). Restarting session.[0m
+[0;31mE (178715) security1: Closing old session with id 215244733[0m
+[0;32mI (179025) app_network: Secured session established![0m
+[0;32mI (179075) esp_rmaker_node_config: Generated Node config of length 1458[0m
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2139 | 0%
+| spin4 | 148731 | 14%
+| spin5 | 154312 | 15%
+| spin6 | 166941 | 16%
+| mdns | 3125 | 0%
+| IDLE | 4788 | 0%
+| spin2 | 160883 | 16%
+| spin3 | 161076 | 16%
+| tiT | 4444 | 0%
+| mqtt_task | 1178 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin1 | 168990 | 16%
+| httpd | 0 | 0%
+| wifi | 22005 | 2%
+| esp_timer | 1388 | 0%
+| console_task | 0 | 0%
+| sys_evt | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2138 | 0%
+| spin3 | 168805 | 16%
+| spin5 | 164531 | 16%
+| spin1 | 158985 | 15%
+| spin4 | 142421 | 14%
+| IDLE | 17833 | 1%
+| spin6 | 162676 | 16%
+| tiT | 1917 | 0%
+| mqtt_task | 1188 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin2 | 160276 | 16%
+| sys_evt | 0 | 0%
+| mdns | 1121 | 0%
+| wifi | 17076 | 1%
+| esp_timer | 1033 | 0%
+| httpd | 0 | 0%
+| console_task | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2144 | 0%
+| spin3 | 151733 | 15%
+| spin2 | 157342 | 15%
+| spin6 | 169019 | 16%
+| IDLE | 2942 | 0%
+| spin1 | 168974 | 16%
+| spin4 | 160832 | 16%
+| tiT | 1096 | 0%
+| Tmr Svc | 34 | 0%
+| mqtt_task | 1178 | 0%
+| rmaker_queue_ta | 0 | 0%
+| spin5 | 166984 | 16%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+| wifi | 16870 | 1%
+| esp_timer | 853 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2144 | 0%
+| spin4 | 169034 | 16%
+| spin5 | 163459 | 16%
+| spin6 | 158996 | 15%
+| spin3 | 166746 | 16%
+| IDLE | 7517 | 0%
+| spin1 | 166510 | 16%
+| tiT | 1094 | 0%
+| mqtt_task | 1190 | 0%
+| rmaker_queue_ta | 0 | 0%
+| Tmr Svc | 0 | 0%
+| spin2 | 145452 | 14%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+| wifi | 17013 | 1%
+| esp_timer | 845 | 0%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+Real time stats obtained
+[0;32mI (187105) esp_rmaker_time: SNTP Synchronised.[0m
+[0;32mI (187115) esp_rmaker_time: The current time is: Fri Oct 11 16:26:55 2024 -0400[EDT], DST: Yes.[0m
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2133 | 0%
+| spin3 | 143445 | 14%
+| IDLE | 29130 | 2%
+| spin2 | 168985 | 16%
+| spin1 | 169001 | 16%
+| spin4 | 150839 | 15%
+| tiT | 1582 | 0%
+| spin5 | 148038 | 14%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 31 | 0%
+| Tmr Svc | 0 | 0%
+| spin6 | 169002 | 16%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+| wifi | 15742 | 1%
+| esp_timer | 913 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2133 | 0%
+| spin2 | 154923 | 15%
+| spin4 | 163156 | 16%
+| spin6 | 167778 | 16%
+| IDLE | 23412 | 2%
+| spin1 | 150845 | 15%
+| spin3 | 168977 | 16%
+| spin5 | 152648 | 15%
+| mqtt_task | 1190 | 0%
+| rmaker_queue_ta | 31 | 0%
+| Tmr Svc | 0 | 0%
+| tiT | 1094 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+| wifi | 13048 | 1%
+| esp_timer | 765 | 0%
+| console_task | 0 | 0%
+| mdns | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
+| Task | Run Time | Percentage
+| stats | 2133 | 0%
+| spin5 | 169047 | 16%
+| spin3 | 167174 | 16%
+| spin1 | 158977 | 15%
+| IDLE | 5215 | 0%
+| spin6 | 166082 | 16%
+| spin4 | 168988 | 16%
+| spin2 | 140875 | 14%
+| mqtt_task | 1191 | 0%
+| rmaker_queue_ta | 31 | 0%
+| Tmr Svc | 0 | 0%
+| tiT | 1525 | 0%
+| console_task | 0 | 0%
+| wifi | 17760 | 1%
+| esp_timer | 1001 | 0%
+| mdns | 0 | 0%
+| sys_evt | 0 | 0%
+| httpd | 0 | 0%
+Real time stats obtained
+
+
+Getting real time stats over 100 ticks
